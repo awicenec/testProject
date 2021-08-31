@@ -7,7 +7,6 @@ To open this project inside PyCharm (VCS --> Checkout from Version Control) and 
 ## Get started
 * Create a new project in PyCharm (File --> New Project). Give it a name and let PyCharm generate a virtual environment for you. Open the new project in a new window.
 * Enable Git as a version control system (VCS --> Enable Version Control Integration and choose Git)
-* Share project on GitHub (this will require an account on GitHub and a configuration of PyCharm to use that). PyCharm will ask you for either a password or a token to login to your GitHub account. It can also directly call the web interface of GitHub to generate a token, if you don't have one, yet.
 * Add a new directory: (File --> New --> Directory) and name it test
 * Create a new unittest Python file in the test directory: (highlight the test directory in the project tree right click --> New --> Python File --> Python unit test) and name it test_me (or something more useful, but start the name with test_)
 * The new test file will automatically be opened and populated with a dummy test, which can be run, by clicking on one of the green arrows on the left of the code. The dummy test will fail, because it tries to assert True to False.
@@ -20,6 +19,8 @@ To open this project inside PyCharm (VCS --> Checkout from Version Control) and 
 * Git is a distributed VCS and you can work just by yourself, or together with other people and in addition there is a cloud based repository where you can store and share your projects, which is called GitHub.
 * To commit your changes locally you can simply click on the small little green tick, close to the upper right corner of the PyCharm window. The system will ask you for a short commit message, explaining in very short terms what had been done to the code. If you are working just for yourself, that is it. 
 * If you are sharing the project with others or on GitHub, you can also Push the changes to the remote repository. That is the small little, upwards pointing green arrow next to the commit tag.
+* To share your project on GitHub you will require an account on GitHub and a configuration of PyCharm to use that. 'Git --> GitHub --> Share Project on GitHub' and PyCharm will ask you for either a password or a token to login to your GitHub account. 
+You can also click on the generate button to call the web interface of GitHub to generate a token.
 * It is good practice running your tests before pushing the changes, just to make sure that the code is working correctly.
 
 ## Testing
