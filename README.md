@@ -1,5 +1,6 @@
 # testProject
 Small little test for the PyCharm IDE to demonstrate the setup of a project, including GitHub version control and testing.
+This is not meant to be even close to complete, but it will hopefully get you over the first hurdles when starting from almost zero.
 
 To open this project inside PyCharm (VCS --> Checkout from Version Control) and enter https://github.com/awicenec/testProject into the URL box (make sure that the path box underneath is empty beforehand).
 
@@ -29,3 +30,11 @@ To open this project inside PyCharm (VCS --> Checkout from Version Control) and 
 * This example project contains a few tests in the test directory to show how tests are written.
 * If you would change the string 'World' in main.py to 'Universe' and run the tests again, the test_something_else test will fail, because you have changed the expected default behaviour of the program.
 
+## Debugging
+We all make mistakes and when trying to tell a computer what to do we are making even more mistakes. Finding and fixing mistakes is called 'debugging' in software engineering. Some errors are easy to spot, but many are pretty hard to find by just looking at the code. That's when a tool called 'Debugger' comes in. A debugger lets you run the code in a controlled way, you can even run every step individually, or introduce so-called breakpoints.
+The small little test project you have generated contains a breakpoint by default. That is indicated by the red dot left of line 9. You can run the code under the debugger control by pressing the small little green bug in the top right of the main task bar.
+That will cause the lower part of the window to change to display the Debug pane. The execution will stop at the breakpoint and you can examine all the variables and other properties at that point of the execution. Examine the various buttons around the left part of that pane, the hover
+tooltips explain what the buttons will do. 
+
+## More Info
+There is plenty of additional information on-line and in books available on each of the topics just very briefly touched in this little example. It is certainly required to use Google a lot to find what you are missing. If you like a more structured introduction, also that is available on-line in courses and tutorials.
