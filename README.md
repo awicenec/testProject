@@ -1,5 +1,5 @@
 # testProject
-Small little test for the PyCharm IDE to see how integrations are working
+Small little test for the PyCharm IDE to demonstrate the setup of a project, including GitHub version control and testing.
 
 To open this project inside PyCharm (VCS --> Checkout from Version Control) and enter https://github.com/awicenec/testProject into the URL box (make sure that the path box underneath is empty beforehand).
 
@@ -12,5 +12,5 @@ To open this project inside PyCharm (VCS --> Checkout from Version Control) and 
 * The new unittest file will automatically be opened and populated with a dummy test, which can be run, by clicking on one of the green arrows on the left of the code. The dummy test will fail, because it tries to assert True to False.
 * You can also run the actual code by clicking on the small green arrow next to line 13 in the file main.py or by pressing Ctrl + Shift + F10
 * You should also always create a README.md file for your project (like this one), describing what this is all about.
-* 
+
 
